@@ -1,60 +1,96 @@
-header{
-    background-color: rgb(122, 165, 42);
+header {
+    /*     background-color: rgb(122, 165, 42); */
     display: flex;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
+    padding: 15px 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
 }
 
-.contenedor_logo{
-    background-color:royalblue;
+.contenedor_logo {
+    /* background-color: royalblue; */
     width: 100%;
     text-align: center;
     margin: 10px;
-   
+
 }
 
 .nav_logo {
     width: 40%;
-align-content: center;
-background-color: brown;
+    align-content: center;
+    /* background-color: brown; */
 }
 
-body{
-    background-color: salmon;
-    margin:0px;
-    padding:0px;
+body {
+    /* background-color: salmon; */
+    margin: 0px;
+    padding: 0px;
 
 }
-.contenedor_banner{
-    background-color:purple;
-    margin:12px;
+
+.contenedor_banner {
+    /* background-color: purple; */
+    margin: 12px;
     text-align: center;
 }
-.contenedor_banner img{
-    background-color: springgreen;
+
+.contenedor_banner img {
+    /* background-color: springgreen; */
     width: 100%;
 
 }
-h1{
-    font-size: 35px;
-}
-.primero{
+
+.contenedor_banner button {
+    background-color: #388972;
+    color: #fff;
     font-size: 18.2px;
 }
-.segundo{
+
+
+h1 {
+    font-size: 35px;
+}
+
+.primero {
+    font-size: 18.2px;
+}
+
+.segundo {
     font-size: 15px;
 }
-.contenedor_button{
+
+.contenedor_button {
     border-radius: 75px;
     padding: 25px 60px;
-    
-}
-/* header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-} 
 
-input {
-    flex-grow: 2;
-}*/
+}
+
+/** SECTION FEAUTURES */
+.container__features header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.container__features header h3 {
+    font-size: 28px;
+}
+
+.container__features .container__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+
+.container__features .container__items .items {
+    width: 40%;
+    padding: 16px;
+    text-align: center;
+}
+
+.container__features img {
+    height: 80px;
+    width: 100%;
+}
